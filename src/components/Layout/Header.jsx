@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Header() {
+  let [selectedPage, setSelectedPage] = useState("Home");
   return (
     <div className="Header">
-      <h3>Moin Shaikh</h3>
+      <h2>Ms</h2>
       <ul>
         <li>Home</li>
         <li>Projects</li>

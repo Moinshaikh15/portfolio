@@ -5,11 +5,13 @@ export default function Home() {
     <div className="home-page-main">
       <div className="left">
         <div className="info">
-          <p>
+          <h2>
             Hello! <span style={{ color: "#02b48f" }}>I'm</span>{" "}
-          </p>
+          </h2>
           <h1>Moin Shaikh</h1>
-          <p style={{ fontSize: "20px" }}>Full Stack Developer</p>
+          <p style={{ fontSize: "20px", color: "#02b48f" }}>
+            Full Stack Developer
+          </p>
           <p>
             I'm a MERN Stack developer, who loves to learn and creatively solve
             problems, Ambitious and excited to work on new projects and other
@@ -19,20 +21,26 @@ export default function Home() {
           </p>
         </div>
         <div className="social-accounts">
-          <a href="https://www.upwork.com/freelancers/~01726571141e12b1a6">
-            <img src="icons/upwork.png" alt="" className="icons" />
+          <a
+            href="https://www.upwork.com/freelancers/~01726571141e12b1a6"
+            target="_blank"
+          >
+            <img src="icons/upwork1.png" alt="" className="icons" />
           </a>
-          <a href="https://github.com/Moinshaikh15">
+          <a href="https://github.com/Moinshaikh15" target="_blank">
             <img src="icons/github.png" alt="" className="icons" />
           </a>
-          <a href="https://www.linkedin.com/in/moin-shaikh-56970b235">
-            <img src="icons/linkedin.png" alt="" className="icons" />
+          <a
+            href="https://www.linkedin.com/in/moin-shaikh-56970b235"
+            target="_blank"
+          >
+            <img src="icons/linkedin1.png" alt="" className="icons" />
           </a>
         </div>
       </div>
 
       <div className="image-container">
-        <img src="" alt="" />
+        <img src="profile_photo.png" alt="" />
       </div>
     </div>
   );
