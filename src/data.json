@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "title": "Quizzo",
+      "description": "This is a Full-Stack App. A platform where teacher can create their own quizes and teachers and students can play quizes here.",
+      "link": "https://kahoot-frontend.vercel.app",
+      "image": "/projects/quizzo.png",
+      "tech_stack": ["ReactJS", "ExpressJS", "MongoDB"],
+      "category": "MERN Stack"
+    },
+    {
+      "title": "DocSeek",
+      "description": "This is a Full-Stack App. A platform which can connect patients with best doctors from around the world.",
+      "link": "https://dockseek-frontend-dqis.vercel.app",
+      "image": "/projects/docseek.png",
+      "tech_stack": ["ReactJS", "ExpressJS", "PostgresSQL"],
+      "category": "MERN Stack"
+    },
+    {
+      "title": "Spotify Profile App",
+      "description": "Spotify Profile overview app which will fetch a Spotify user's info, recent activity, favorite tracks, favorite artists, and playlist",
+      "link": "https://spotify-profile-mf.vercel.app",
+      "image": "/projects/spotify.png",
+      "tech_stack": ["ReactJS", "React-router-dom"],
+      "category": "Front-End"
+    },
+    {
+      "title": "Quizzo",
+      "description": "This is a Full-Stack App. A platform where teacher can create their own quizes and teachers and students can play quizes here.",
+      "link": "https://kahoot-frontend.vercel.app",
+      "image": "/projects/quizzo.png",
+      "tech_stack": ["ReactJS", "ExpressJS", "MongoDB"],
+      "category": "MERN Stack"
+    },
+    {
+      "title": "DocSeek",
+      "description": "This is a Full-Stack App. A platform which can connect patients with best doctors from around the world.",
+      "link": "https://dockseek-frontend-dqis.vercel.app",
+      "image": "/projects/docseek.png",
+      "tech_stack": ["ReactJS", "ExpressJS", "PostgresSQL"],
+      "category": "MERN Stack"
+    },
+    {
+      "title": "Game",
+      "description": "Spotify Profile overview app which will fetch a Spotify user's info, recent activity, favorite tracks, favorite artists, and playlist",
+      "link": "https://spotify-profile-mf.vercel.app",
+      "image": "/projects/spotify.png",
+      "tech_stack": ["ReactJS", "React-router-dom"],
+      "category": "Games"
+    }
+  ]
+}
