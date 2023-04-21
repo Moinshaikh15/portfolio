@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Playball&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Playball&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -40,8 +40,8 @@ code {
   /* border: 1px solid rgb(225, 39, 216); */
   padding: 20px 0;
 }
-.Header h2{
-  font-family: 'Playball', cursive;
+.Header h2 {
+  font-family: "Playball", cursive;
 }
 .Header ul li {
   display: inline;
@@ -75,7 +75,7 @@ code {
   justify-content: space-between;
   align-items: center;
 }
-.left {
+.home-page-main .left {
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -101,11 +101,34 @@ code {
   width: 400px;
   height: 500px;
   /* border: 1px solid rgb(68, 68, 68); */
+  position: relative;
 }
 .image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.image-bg-box1 {
+  width: 100%;
+  height: 400px;
+  background-color: #02b48f;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  border-radius: 10px;
+}
+.image-bg-box2 {
+  width: 100%;
+  height: 400px;
+  background-color: #02b48f;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  border-radius: 10px;
+  transform: rotate(90deg);
 }
 
 .social-accounts {
@@ -122,6 +145,32 @@ code {
 }
 .icons:hover {
   scale: 1.2;
+}
+/* <-------------------- About Page -----------------------> */
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid rgb(207, 142, 38);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.about .left {
+  flex: 1;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .right {
+  flex: 1;
+  border: 1px solid;
+  padding: 10px;
 }
 
 /* <------------------Project Page ------------------> */

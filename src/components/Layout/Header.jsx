@@ -4,7 +4,7 @@ export default function Header() {
   let [selectedPage, setSelectedPage] = useState("Home");
   return (
     <div className="Header">
-      <h2>Ms</h2>
+      <h2 >Ms</h2>
       <ul>
         <li>Home</li>
         <li>Projects</li>

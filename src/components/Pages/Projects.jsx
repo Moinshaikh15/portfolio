@@ -13,14 +13,14 @@ export default function Projects() {
     setProjects(filteredData);
   };
   useEffect(() => {
-    setProjects(data.projects);
+    filterProjects(selectFilter)
   }, []);
   return (
     <div className="projects-container">
       <h1>Projects</h1>
 
       <div className="Project-filters">
-        {projectFilters.map((filter) => (
+        {projectFilters.map((filter,indx) => (
           <div
             style={{
               backgroundColor: selectFilter === filter ? "#02b48f" : "",
@@ -30,6 +30,7 @@ export default function Projects() {
               setSelectFilter(filter);
               filterProjects(filter);
             }}
+            key={filter+indx}
           >
             <p>{filter}</p>
           </div>

@@ -9,9 +9,7 @@ export default function Home() {
             Hello! <span style={{ color: "#02b48f" }}>I'm</span>{" "}
           </h2>
           <h1>Moin Shaikh</h1>
-          <p style={{ fontSize: "20px", color: "#02b48f" }}>
-            Full Stack Developer
-          </p>
+          <h2 style={{ color: "#c4c3c3" }}>Full Stack Developer</h2>
           <p>
             I'm a MERN Stack developer, who loves to learn and creatively solve
             problems, Ambitious and excited to work on new projects and other
@@ -40,6 +38,12 @@ export default function Home() {
       </div>
 
       <div className="image-container">
+        {/* <div className="image-bg-box1">
+
+        </div>
+        <div className="image-bg-box2">
+
+</div> */}
         <img src="profile_photo.png" alt="" />
       </div>
     </div>
