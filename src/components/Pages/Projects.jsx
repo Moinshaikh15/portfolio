@@ -16,8 +16,8 @@ export default function Projects() {
     filterProjects(selectFilter)
   }, []);
   return (
-    <div className="projects-container">
-      <h1>Projects</h1>
+    <div className="projects-container" id='Projects' >
+      <h2>Projects</h2>
 
       <div className="Project-filters">
         {projectFilters.map((filter,indx) => (

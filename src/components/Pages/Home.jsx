@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="home-page-main">
+    <div className="home-page-main" id="Home">
       <div className="left">
         <div className="info">
           <h2>
@@ -13,9 +13,7 @@ export default function Home() {
           <p>
             I'm a MERN Stack developer, who loves to learn and creatively solve
             problems, Ambitious and excited to work on new projects and other
-            challenging opportunities, I have experience with technologies such
-            as HTML, CSS, JavaScript, React.js, Tailwind CSS, Redux, Express.js,
-            Node.js, Firebase, MongoDB, PostgreSQL, etc.
+            challenging opportunities.
           </p>
         </div>
         <div className="social-accounts">
@@ -44,7 +42,7 @@ export default function Home() {
         <div className="image-bg-box2">
 
 </div> */}
-        <img src="profile_photo.png" alt="" />
+        {/* <img src="profile_photo.png" alt="" /> */}
       </div>
     </div>
   );

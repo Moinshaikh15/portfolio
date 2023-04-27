@@ -38,7 +38,12 @@ code {
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid rgb(225, 39, 216); */
-  padding: 20px 0;
+  padding: 20px 6vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  backdrop-filter: blur(16px);
 }
 .Header h2 {
   font-family: "Playball", cursive;
@@ -47,9 +52,13 @@ code {
   display: inline;
   margin: 0 20px;
 }
-.Header li:hover {
+.Header li a:hover {
   color: #02b48f;
   cursor: pointer;
+}
+.Header li a {
+  text-decoration: none;
+  color: white;
 }
 .Header button {
   padding: 5px;
@@ -68,7 +77,7 @@ code {
 /* <-------------------- Home ----------------------> */
 .home-page-main {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   /* border: 1px solid rgb(193, 39, 39); */
   display: flex;
   flex-direction: row;
@@ -94,7 +103,8 @@ code {
   width: 600px;
 }
 .info h1 {
-  font-size: 48px;
+  font-size: 3.75rem;
+  font-weight: 700;
 }
 
 .image-container {
@@ -151,39 +161,126 @@ code {
 .about {
   width: 100%;
   min-height: 100vh;
-  border: 1px solid rgb(207, 142, 38);
+  /* border: 1px solid rgb(207, 142, 38); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0;
+}
+.about-main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  padding: 20px 0;
 }
-
+.about h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: inherit;
+}
 .about .left {
-  flex: 1;
-  border: 1px solid;
+  height: 400px;
+  width: 500px;
+  /* border: 1px solid; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.about .left img {
+  /* width: 300px; */
+  height: 20rem;
+}
 
 .about .right {
   flex: 1;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.about .right .name {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+.skills-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.skills img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.skills-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.skills-filters div {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+.skill-div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  background-color: #738daa;
 }
 
 /* <------------------Project Page ------------------> */
 .projects-container {
   width: 100%;
   min-height: 100vh;
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
   padding: 20px 0;
+}
+
+.projects-container h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: inherit;
 }
 
 .Project-filters {
