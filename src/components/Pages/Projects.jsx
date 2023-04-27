@@ -23,7 +23,7 @@ export default function Projects() {
         {projectFilters.map((filter,indx) => (
           <div
             style={{
-              backgroundColor: selectFilter === filter ? "#02b48f" : "",
+              backgroundColor: selectFilter === filter ? "rgb(109 40 217)" : "",
               color: selectFilter === filter ? "white" : ""
             }}
             onClick={() => {

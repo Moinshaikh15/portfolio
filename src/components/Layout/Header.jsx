@@ -24,7 +24,18 @@ export default function Header() {
         ))}
       </ul>
 
-      <button>Contact</button>
+      <button>
+        <ScrollLink
+          className=""
+          to="Contact"
+          offset={-60}
+          smooth={true}
+          duration={500}
+          isDynamic={true}
+        >
+          Contact
+        </ScrollLink>{" "}
+      </button>
     </div>
   );
 }
