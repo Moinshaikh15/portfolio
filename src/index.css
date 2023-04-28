@@ -90,9 +90,10 @@ code {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .home-page-main .left {
-  height: 500px;
+  width: 44vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,12 +103,12 @@ code {
 }
 .info {
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
   /* border: 1px solid rgb(36, 185, 31); */
-  width: 600px;
 }
 .info h1 {
   font-size: 3.75rem;
@@ -125,7 +126,6 @@ code {
   height: 20rem;
   object-fit: cover;
   position: relative;
-  z-index: 2;
 }
 
 .image-bg-box1 {
@@ -185,6 +185,7 @@ code {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .about h2 {
   font-size: 2.25rem;
@@ -260,8 +261,11 @@ code {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   gap: 40px;
   margin-top: 10px;
+  place-items: center;
 }
 .skill-div {
   width: 6rem;
@@ -419,7 +423,7 @@ code {
   outline: none;
   font-size: 1rem;
 }
-.contact-btn{
+.contact-btn {
   width: 100px;
   background-color: rgb(109 40 217);
   color: white;
@@ -427,7 +431,6 @@ code {
   border-radius: 10px;
   padding: 10px;
   font-size: 16px;
-  
 }
 
 /* <-------------- Footer--------------> */
@@ -440,4 +443,78 @@ code {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    padding: 10px;
+    font-size: 75%;
+  }
+  .main {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  /* HOme */
+  .home-page-main {
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  .home-page-main .left {
+    width: 100%;
+  }
+  .info h1 {
+    font-size: 2.15rem;
+  }
+
+  .image-container img {
+    width: 14rem;
+    height: 10rem;
+  }
+  .icons {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+  }
+
+  /* about */
+
+  .about .right {
+    width: 50vw;
+  }
+  .skills-main {
+    padding: 10px;
+  }
+  .skills-filters div {
+    width: 6rem;
+  }
+
+  .skill-div {
+    width: 5.55rem;
+    height: 5.55rem;
+  }
+  .skill-div img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* Projects */
+
+  .Project-filters div {
+    width: 6rem;
+  }
+  .project-card {
+    width: 90vw;
+  }
+
+  .project-card .preview-img {
+    width: 84vw;
+   
+  }
+
+  /* contact */
+  .contact-container form input, .contact-container form textarea{
+    width: 20rem;
+  }
 }

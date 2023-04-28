@@ -3,7 +3,7 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Header() {
   let [selectedPage, setSelectedPage] = useState("Home");
 
-  const menu = ["Home", "About", "Projects", "Experience"];
+  const menu = ["Home", "About", "Projects",];
   return (
     <div className="Header">
       <h2>Ms</h2>
@@ -36,6 +36,10 @@ export default function Header() {
           Contact
         </ScrollLink>{" "}
       </button>
+
+
+
+      
     </div>
   );
 }
