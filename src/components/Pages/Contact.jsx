@@ -16,6 +16,8 @@ export default function Contact() {
       </form>
 
       <button className="contact-btn" >Send</button>
+      <p>OR</p>
+      <p>Mail at: moinshaikh1592001@gmail.com </p>
     </div>
   );
 }
