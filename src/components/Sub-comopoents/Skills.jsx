@@ -7,8 +7,8 @@ export default function Skills() {
 
   let frontEnd = [
     "JavaScript",
-    "HTML",
-    "CSS",
+    "HTML5",
+    "CSS3",
     "ReactJS",
     "Redux",
     "MaterialUI",

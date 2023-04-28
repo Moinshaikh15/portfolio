@@ -6,7 +6,7 @@
       "link": "https://kahoot-frontend.vercel.app",
       "image": "/projects/quizzo.png",
       "tech_stack": ["ReactJS", "ExpressJS", "MongoDB"],
-      "category": "MERN Stack"
+      "category": "MERN"
     },
     {
       "title": "DocSeek",
@@ -14,7 +14,7 @@
       "link": "https://dockseek-frontend-dqis.vercel.app",
       "image": "/projects/docseek.png",
       "tech_stack": ["ReactJS", "ExpressJS", "PostgresSQL"],
-      "category": "MERN Stack"
+      "category": "MERN"
     },
     {
       "title": "Spotify Profile App",
@@ -30,7 +30,7 @@
       "link": "https://kahoot-frontend.vercel.app",
       "image": "/projects/quizzo.png",
       "tech_stack": ["ReactJS", "ExpressJS", "MongoDB"],
-      "category": "MERN Stack"
+      "category": "MERN"
     },
     {
       "title": "DocSeek",
@@ -38,7 +38,7 @@
       "link": "https://dockseek-frontend-dqis.vercel.app",
       "image": "/projects/docseek.png",
       "tech_stack": ["ReactJS", "ExpressJS", "PostgresSQL"],
-      "category": "MERN Stack"
+      "category": "MERN"
     },
     {
       "title": "Game",

@@ -3,8 +3,8 @@ import data from "../../data.json";
 import ProjectCard from "../Sub-comopoents/ProjectCard";
 export default function Projects() {
   let [projects, setProjects] = useState([]);
-  let projectFilters = ["MERN Stack", "Front-End", "Games"];
-  let [selectFilter, setSelectFilter] = useState("MERN Stack");
+  let projectFilters = ["MERN", "Front-End", "Games"];
+  let [selectFilter, setSelectFilter] = useState("MERN");
 
   let filterProjects = (filterQuery) => {
     let filteredData = data.projects.filter(
