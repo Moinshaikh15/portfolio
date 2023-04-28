@@ -251,7 +251,7 @@ code {
   background-color: white;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 16px;
 }
 .skills-filters div {
   width: 200px;
@@ -259,7 +259,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -320,7 +320,7 @@ code {
   background-color: white;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 16px;
 }
 .Project-filters div {
   width: 200px;
@@ -328,7 +328,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -353,7 +353,7 @@ code {
   align-items: center;
   gap: 10px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 16px;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -366,7 +366,7 @@ code {
   width: 380px;
   height: 260px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .project-site-link {
   position: absolute;
