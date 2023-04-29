@@ -216,7 +216,7 @@ code {
 .about .right {
   flex: 1;
   /* border: 1px solid; */
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -484,7 +484,20 @@ code {
   .ham-menu-icon {
     display: inline;
     filter: invert(1);
-    width: 2rem;
+    width: 1.6rem;
+  }
+  .menu-line-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 3px;
+  }
+  .menu-line-container .line {
+    height: 4px;
+    background-color: white;
+    border-radius: 6px;
+    
   }
   .ham-menu {
     display: flex;
@@ -545,7 +558,7 @@ code {
     flex-direction: column;
   }
   .about .right {
-    width: 75%;
+    width: 74%;
     flex: none;
     justify-content: center;
     align-items: center;
@@ -557,7 +570,7 @@ code {
   .skills-filters div {
     width: 5rem;
   }
-  .skills-container{
+  .skills-container {
     max-width: 100%;
   }
   .skill-div {

@@ -40,7 +40,7 @@ export default function Header() {
       </button>
 
       {/*  Hamburger Menu */}
-      <img
+      {/* <img
         src="/icons/menu.png"
         alt=""
         className="ham-menu-icon"
@@ -48,7 +48,14 @@ export default function Header() {
         style={{
           display: showMenu ? "none" : "",
         }}
-      />
+      /> */}
+      <div className="menu-line-container" onClick={() => setShowMenu(!showMenu)} style={{
+          display: showMenu ? "none" : "",
+        }}>
+          <div className="line" style={{width: '16px'}}></div>
+          <div className="line" style={{width: '24px', backgroundColor:'#c0bfbf'}}></div>
+          <div className="line" style={{width: '20px'}}></div>
+        </div>
       <div
         className="ham-menu"
         style={{
@@ -61,6 +68,7 @@ export default function Header() {
           className="close"
           onClick={() => setShowMenu(!showMenu)}
         />
+        
         <ul className="mobile-menu">
           {menu.map((e, i) => (
             <li key={i}>
