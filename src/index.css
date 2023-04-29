@@ -58,6 +58,9 @@ code {
 .ham-menu {
   display: none;
 }
+.menu-line-container{
+  display: none;
+}
 .Header h2 {
   font-family: "Playball", cursive;
 }
