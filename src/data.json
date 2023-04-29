@@ -5,48 +5,113 @@
       "description": "This is a Full-Stack App. A platform where teacher can create their own quizes and teachers and students can play quizes here.",
       "link": "https://kahoot-frontend.vercel.app",
       "image": "/projects/quizzo.png",
-      "tech_stack": ["ReactJS", "ExpressJS", "MongoDB"],
-      "category": "MERN"
+      "tech_stack": ["ReactJS", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
+      "categories": ["MERN"]
     },
     {
       "title": "DocSeek",
       "description": "This is a Full-Stack App. A platform which can connect patients with best doctors from around the world.",
       "link": "https://dockseek-frontend-dqis.vercel.app",
       "image": "/projects/docseek.png",
-      "tech_stack": ["ReactJS", "ExpressJS", "PostgresSQL"],
-      "category": "MERN"
+      "tech_stack": ["ReactJS", "Redux", "NodeJS", "ExpressJS", "PostgresSQL"],
+      "categories": ["MERN"]
+    },
+    {
+      "title": "Chatter",
+      "description": "A chat app, where you can create public rooms and chat with folks on the app.",
+      "link": "https://radiant-gumdrop-1cc382.netlify.app",
+      "image": "/projects/chat-app.png",
+      "tech_stack": ["ReactJS", "Firebase", "Firebase-google-Auth"],
+      "categories": ["MERN"]
+    },
+    {
+      "title": "E-Bazar",
+      "description": "This is a full-stack application that serves as a platform for purchasing products and posting your own advertisements for products",
+      "link": " https://day-47-ebazaar-react-frontend.vercel.app",
+      "image": "/projects/e-bazar.png",
+      "tech_stack": [
+        "ReactJS",
+        "Redux",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "MUI"
+      ],
+      "categories": ["MERN"]
     },
     {
       "title": "Spotify Profile App",
       "description": "Spotify Profile overview app which will fetch a Spotify user's info, recent activity, favorite tracks, favorite artists, and playlist",
       "link": "https://spotify-profile-mf.vercel.app",
       "image": "/projects/spotify.png",
-      "tech_stack": ["ReactJS", "React-router-dom"],
-      "category": "Front-End"
+      "tech_stack": ["ReactJS", "React-router-dom", "Spotify API"],
+      "categories": ["Front-End"]
+    },
+
+    {
+      "title": "Crypto Trading",
+      "description": "This is a crypto trading application that displays various cryptocurrencies that can be bought or sold through simulated transactions.",
+      "link": "https://62e7eebd051ac76650ee1e48--celebrated-marigold-a108e7.netlify.app",
+      "image": "/projects/crypto-trading.png",
+      "tech_stack": ["ReactJS", "Context-API", "Crypto-API"],
+      "categories": ["Front-End"]
     },
     {
-      "title": "Quizzo",
-      "description": "This is a Full-Stack App. A platform where teacher can create their own quizes and teachers and students can play quizes here.",
-      "link": "https://kahoot-frontend.vercel.app",
-      "image": "/projects/quizzo.png",
-      "tech_stack": ["ReactJS", "ExpressJS", "MongoDB"],
-      "category": "MERN"
+      "title": "Todo App",
+      "description": "Here, you can add your to-do list and mark tasks as completed.",
+      "link": " https://jade-empanada-c2e202.netlify.app",
+      "image": "/projects/todo.png",
+      "tech_stack": ["ReactJS", "Redux"],
+      "categories": ["Front-End"]
     },
     {
-      "title": "DocSeek",
-      "description": "This is a Full-Stack App. A platform which can connect patients with best doctors from around the world.",
-      "link": "https://dockseek-frontend-dqis.vercel.app",
-      "image": "/projects/docseek.png",
-      "tech_stack": ["ReactJS", "ExpressJS", "PostgresSQL"],
-      "category": "MERN"
+      "title": "Movie App",
+      "description": "It shows latest top trending movies which you can add to your wishlist.",
+      "link": "https://day-40-movies-redux-practise.vercel.app",
+      "image": "/projects/movies.png",
+      "tech_stack": ["ReactJS", "Redux", "themoviedb-API"],
+      "categories": ["Front-End"]
     },
     {
-      "title": "Game",
-      "description": "Spotify Profile overview app which will fetch a Spotify user's info, recent activity, favorite tracks, favorite artists, and playlist",
-      "link": "https://spotify-profile-mf.vercel.app",
-      "image": "/projects/spotify.png",
-      "tech_stack": ["ReactJS", "React-router-dom"],
-      "category": "Games"
+      "title": "Blog Page",
+      "description": "It's Blog page UI website",
+      "link": "https://blog-page-indol.vercel.app",
+      "image": "/projects/blog-page.png",
+      "tech_stack": ["HTML", "CSS"],
+      "categories": ["Front-End"]
+    },
+    {
+      "title": "Image Slider",
+      "description": "It's Image Slider",
+      "link": "https://image-slider-ebon-alpha.vercel.app",
+      "image": "/projects/image-slider.png",
+      "tech_stack": ["HTML", "CSS"],
+      "categories": ["Front-End"]
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "description": "It's a fun real-time tic-tac-toe game. Players can create a room and play with friends using room Id.",
+      "link": "https://moin-tic-tac-toe-multiplayer.vercel.app",
+      "image": "/projects/tic-tac-toe.png",
+      "tech_stack": ["ReactJS", "Websocket", "NodeJs", "ExpressJS"],
+      "categories": ["MERN", "Games"]
+    },
+    {
+      "title": "Memory Game",
+      "description": "It's a fun Memory game. Players have to match fruits on cards.",
+      "link": "https://effervescent-bunny-ced80c.netlify.app/",
+      "image": "/projects/memory game.png",
+      "tech_stack": ["ReactJS"],
+      "categories": ["Games"]
+    },
+
+    {
+      "title": "Simon Says",
+      "description": "Player will have to remember the pattern of colors glow in game & repeat the same by clicking of colors wheel.",
+      "link": "https://idyllic-medovik-981ace.netlify.app/",
+      "image": "/projects/Simon says.png",
+      "tech_stack": ["HTML", "CSS","Algorithm"],
+      "categories": ["Games"]
     }
   ]
 }

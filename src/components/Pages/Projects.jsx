@@ -7,30 +7,30 @@ export default function Projects() {
   let [selectFilter, setSelectFilter] = useState("MERN");
 
   let filterProjects = (filterQuery) => {
-    let filteredData = data.projects.filter(
-      (el) => el.category === filterQuery
+    let filteredData = data.projects.filter((el) =>
+      el.categories.includes(filterQuery)
     );
     setProjects(filteredData);
   };
   useEffect(() => {
-    filterProjects(selectFilter)
+    filterProjects(selectFilter);
   }, []);
   return (
-    <div className="projects-container" id='Projects' >
+    <div className="projects-container" id="Projects">
       <h2>Projects</h2>
 
       <div className="Project-filters">
-        {projectFilters.map((filter,indx) => (
+        {projectFilters.map((filter, indx) => (
           <div
             style={{
               backgroundColor: selectFilter === filter ? "rgb(109 40 217)" : "",
-              color: selectFilter === filter ? "white" : ""
+              color: selectFilter === filter ? "white" : "",
             }}
             onClick={() => {
               setSelectFilter(filter);
               filterProjects(filter);
             }}
-            key={filter+indx}
+            key={filter + indx}
           >
             <p>{filter}</p>
           </div>
