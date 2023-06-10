@@ -40,6 +40,14 @@
       "categories": ["MERN"]
     },
     {
+      "title": "Airbnb Clone",
+      "description": "Airbnb Clone app is clone of Airbnb travel website",
+      "link": "https://airbnb-clone-psi-blush.vercel.app",
+      "image": "/projects/airbnb.png",
+      "tech_stack": ["ReactJS", "React-router-dom", "TailwindCSS", "Redux"],
+      "categories": ["Front-End"]
+    },
+    {
       "title": "Spotify Profile App",
       "description": "Spotify Profile overview app which will fetch a Spotify user's info, recent activity, favorite tracks, favorite artists, and playlist",
       "link": "https://spotify-profile-mf.vercel.app",
@@ -80,14 +88,7 @@
       "tech_stack": ["HTML", "CSS"],
       "categories": ["Front-End"]
     },
-    {
-      "title": "Image Slider",
-      "description": "It's Image Slider",
-      "link": "https://image-slider-ebon-alpha.vercel.app",
-      "image": "/projects/image-slider.png",
-      "tech_stack": ["HTML", "CSS"],
-      "categories": ["Front-End"]
-    },
+   
     {
       "title": "Tic-Tac-Toe",
       "description": "It's a fun real-time tic-tac-toe game. Players can create a room and play with friends using room Id.",
@@ -101,7 +102,7 @@
       "description": "It's a fun Memory game. Players have to match fruits on cards.",
       "link": "https://effervescent-bunny-ced80c.netlify.app/",
       "image": "/projects/memory game.png",
-      "tech_stack": ["ReactJS"],
+      "tech_stack": ["ReactJS","Algorithm","CSS"],
       "categories": ["Games"]
     },
 
@@ -110,8 +111,10 @@
       "description": "Player will have to remember the pattern of colors glow in game & repeat the same by clicking of colors wheel.",
       "link": "https://idyllic-medovik-981ace.netlify.app/",
       "image": "/projects/Simon says.png",
-      "tech_stack": ["HTML", "CSS","Algorithm"],
+      "tech_stack": ["HTML", "CSS","JavaScript", "Algorithm"],
       "categories": ["Games"]
     }
   ]
 }
+
+

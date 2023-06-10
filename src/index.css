@@ -58,7 +58,7 @@ code {
 .ham-menu {
   display: none;
 }
-.menu-line-container{
+.menu-line-container {
   display: none;
 }
 .Header h2 {
@@ -500,7 +500,6 @@ code {
     height: 4px;
     background-color: white;
     border-radius: 6px;
-    
   }
   .ham-menu {
     display: flex;
@@ -532,10 +531,12 @@ code {
 
   /*  section headers */
 
-  .about h2,.skills-main h2,.projects-container h2,.contact-container h2{
+  .about h2,
+  .skills-main h2,
+  .projects-container h2,
+  .contact-container h2 {
     font-size: 2rem;
   }
-
 
   /* HOme */
   .home-page-main {
@@ -568,7 +569,7 @@ code {
     flex-direction: column;
   }
   .about .right {
-    width:94vw;
+    width: 94vw;
     flex: none;
     justify-content: center;
     align-items: center;
@@ -611,3 +612,17 @@ code {
     width: 20rem;
   }
 }
+
+/* .input-div {
+  position: relative;
+}
+.drop-input {
+  position: absolute;
+  top: 0;
+  width: 10.5rem;
+  height: 100px;
+  background-color: white;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+

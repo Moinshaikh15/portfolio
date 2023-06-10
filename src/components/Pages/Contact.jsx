@@ -27,21 +27,19 @@ export default function Contact() {
           console.log(error);
         }
       );
+    e.target.reset();
   };
 
-  useEffect(() => {
-    
-  }, []);
+  useEffect(() => {}, []);
   return (
     <div className="contact-container" id="Contact">
-     
       <h2>Contact Me</h2>
       <p>
         My inbox is always open. Whether you have a question or just want to say
         hello, I will try my best to get back to you!
       </p>
 
-      <form action="" ref={form} >
+      <form action="" ref={form} onSubmit={sendEmail}>
         <input
           type="text"
           name="from_name"
@@ -65,7 +63,12 @@ export default function Contact() {
 
         <input type="submit" className="contact-btn" value="Send" />
       </form>
-      <p className="success-msg" style={{visibility: !msgSent?"hidden":""}}>Sent Successfully!</p>
+      <p
+        className="success-msg"
+        style={{ visibility: !msgSent ? "hidden" : "" }}
+      >
+        Sent Successfully!
+      </p>
 
       <p>OR</p>
       <p>Mail at: moinshaikh1592001@gmail.com </p>

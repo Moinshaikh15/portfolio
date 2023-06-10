@@ -3,7 +3,7 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Header() {
   let [selectedPage, setSelectedPage] = useState("Home");
   let [showMenu, setShowMenu] = useState(false);
-
+  let [inputFocused, setInputFocused] = useState(false);
   const menu = ["Home", "About", "Projects"];
 
   return (
@@ -25,6 +25,26 @@ export default function Header() {
           </li>
         ))}
       </ul>
+
+      {/* <div className="input-div">
+        <input
+          type="text"
+          onFocus={() => {
+            console.log("dd");
+            setInputFocused(!inputFocused);
+          }}
+          onBlur={() => setInputFocused(false)}
+
+        />
+        <div
+          className="drop-input"
+          style={{
+            display: inputFocused ? "flex" : "none",
+          }}
+        >
+          <input type="text" />
+        </div>
+      </div> */}
 
       <button className="desktop-cont-btn">
         <ScrollLink
@@ -49,13 +69,20 @@ export default function Header() {
           display: showMenu ? "none" : "",
         }}
       /> */}
-      <div className="menu-line-container" onClick={() => setShowMenu(!showMenu)} style={{
+      <div
+        className="menu-line-container"
+        onClick={() => setShowMenu(!showMenu)}
+        style={{
           display: showMenu ? "none" : "",
-        }}>
-          <div className="line" style={{width: '16px'}}></div>
-          <div className="line" style={{width: '24px', backgroundColor:'#c0bfbf'}}></div>
-          <div className="line" style={{width: '20px'}}></div>
-        </div>
+        }}
+      >
+        <div className="line" style={{ width: "16px" }}></div>
+        <div
+          className="line"
+          style={{ width: "24px", backgroundColor: "#c0bfbf" }}
+        ></div>
+        <div className="line" style={{ width: "20px" }}></div>
+      </div>
       <div
         className="ham-menu"
         style={{
@@ -68,7 +95,7 @@ export default function Header() {
           className="close"
           onClick={() => setShowMenu(!showMenu)}
         />
-        
+
         <ul className="mobile-menu">
           {menu.map((e, i) => (
             <li key={i}>
