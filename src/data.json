@@ -100,7 +100,7 @@
     {
       "title": "Memory Game",
       "description": "It's a fun Memory game. Players have to match fruits on cards.",
-      "link": "https://effervescent-bunny-ced80c.netlify.app/",
+      "link": "https://memory-game-erw4.vercel.app",
       "image": "/projects/memory game.png",
       "tech_stack": ["ReactJS","Algorithm","CSS"],
       "categories": ["Games"]
